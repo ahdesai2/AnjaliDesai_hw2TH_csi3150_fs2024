@@ -1,0 +1,156 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #419ab3; /* Blue background */
+  color: #ffffff; /* White text color */
+  min-height: 100vh; 
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000080; /* Blue color */
+}
+
+.header-facts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo */
+.logo img {
+  width: 80px; /* Adjust size of the logo */
+  height: auto;
+  margin-right: 20px;
+}
+
+/* Navigation Bar */
+
+.navbar{
+ position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: auto; /* Keep navigation centered */
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #007bff;
+}
+
+/* CTA Button */
+.cta-button-container {
+  margin-left: auto;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+.my_fun_facts-header{
+  color: #003366;
+}
+/* General styles for the main content */
+main {
+  max-width: 800px; /* Maximum width for better readability */
+  margin: 20px auto; /* Center the main section */
+  padding: 20px; /* Padding around the main content */
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for individual sections */
+section {
+  margin-bottom: 30px; /* Space between sections */
+  padding: 15px; /* Padding within each section */
+  border: 1px solid #007bff; /* Border color */
+  border-radius: 5px; /* Rounded corners for sections */
+  background-color: #f9f9f9; /* Light gray background for sections */
+}
+
+/* Styles for headings within sections */
+h2, h3, h4 {
+  color: #003366; /* Dark blue color for headings */
+  margin-bottom: 10px; /* Space below headings */
+}
+
+/* Styles for paragraphs */
+p {
+  line-height: 1.6; /* Increase line height for readability */
+  color: #333333; /* Dark gray text for better contrast */
+}
+
+/* Styles for images */
+img {
+  display: block; /* Display images as block elements */
+  margin: 10px auto; /* Center images with margin */
+  border-radius: 4px; /* Slightly rounded corners for images */
+}
+
+/* Styles for audio and video elements */
+audio {
+  display: block; /* Display audio controls as block elements */
+  margin: 10px auto; /* Center audio controls */
+}
+
+iframe {
+  display: block; /* Display iframe as block element */
+  margin: 10px auto; /* Center iframe */
+}
+
+/* Styles for links */
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer h3{
+  color: white;
+}
+
+footer a {
+  color: #ff9800;
+}
+footer p{
+  color: white;
+}
+footer a:hover {
+  text-decoration: underline;
+}
